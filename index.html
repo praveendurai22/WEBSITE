@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body bgcolor="aqua">
+    <div class="containers">
+        <div class="header">
+          <div class="left-side">
+            <h1>Company Name</h1>
+          </div>
+          <div class="right-side">
+            <div class="search-bar">
+              <input type="text" placeholder="Search">
+              <button><i class="fa fa-search"></i></button>
+            </div>
+            <button class="login-button">Log In</button>
+            <button class="more-button">More</button>
+            <a href="custom_page.html" class="cart-link">Cart</a>
+          </div>
+        </div>
+      </div>
+    <div class="container">
+        <div class="word-row">
+          <div class="word" onmouseover="toggleColumns1(true)" onmouseout="toggleColumns1(false)">best of electronics</div>
+          <div class="word" onmouseover="toggleColumns2(true)" onmouseout="toggleColumns2(false)">Home & furniture</div>
+          <div class="word" onmouseover="toggleColumns3(true)" onmouseout="toggleColumns3(false)">Mobile</div>
+          <div class="word" onmouseover="toggleColumns4(true)" onmouseout="toggleColumns4(false)">laptop</div>
+          <div class="word" onmouseover="toggleColumns5(true)" onmouseout="toggleColumns5(false)">Men wear</div>
+          <div class="word" onmouseover="toggleColumns6(true)" onmouseout="toggleColumns6(false)">comics</div>
+          <div class="word" onmouseover="toggleColumns7(true)" onmouseout="toggleColumns7(false)">Sports,books & more</div>
+          <div class="word" onmouseover="toggleColumns8(true)" onmouseout="toggleColumns8(false)">Other</div>
+        </div>
+        <div class="columns" id="columns1">
+                <table class="t1">
+                    <tr>
+                        <td class="td2">
+                            <div class="column"><b>Washing Machine</b>
+                                 <br> <br>
+                                Fully Automatic Front Load
+                                Semi Automatic Top Load
+                                Fully Automatic Top Load</div>
+                        </td>
+                        <td class="td2">
+                            <div class="column"> <b>Living Room Furniture</b> 
+                                <br><br>
+                                Sofa
+                                Sofa Beds
+                                TV Units
+                                Dining Tables & Chairs
+                                Coffee Tables
+                                Shoe Racks
+                            </div>
+                        </td>
+                        <td class="td2">
+                            <div class="column"> <b>Home Decor</b>
+                                 <br> <br>
+                                Paintings
+                                Clocks
+                                Wall Shelves
+                                Stickers
+                                Showpieces & Figurines
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+              </div>
+            </div>
+          <div class="columns" id="columns2">
+            <table class="t2">
+                <tr>
+                    <td class="td2">
+                        <div class="column"> <b>Furnishing</b>
+                             <br> <br>
+                            Bedsheets
+                            Curtains
+                            Cushions & Pillows
+                            Blankets
+                            Bath Towels
+                            Kitchen & Table Linen
+                            Floor Coverings
+                            
+                            </div>
+                    </td>
+                    <td class="td2">
+                        <div class="column"> <b>Smart Home Automation</b> 
+                            <br> <br>
+                            Smart Security System
+                            Smart Door Locks</div>
+                    </td>
+                    <td class="td2">
+                        <div class="column"> <b>Home Improvement </b> 
+                            <br> <br>
+                            Tools & Measuring Equipments
+                            Home Utilities & Organizers
+                            Lawn & Gardening</div>
+                    </td>
+                </tr>
+            </table>  
+            </div>
+            </div>
+          <div class="columns" id="columns3">
+            <table class="t3">
+                <tr>
+                  <td class="td2">
+                  <div class="column"> <b>Mobile Accessories </b> 
+                    <br> <br>
+                    Mobile Cases
+                    Headphones & Headsets
+                    Power Banks
+                    Screenguards
+                    Memory Cards
+                    Smart Headphones
+                    Mobile Cables
+                    Mobile Chargers
+                    Mobile Holders
+                   
+                   </div>
+                   </td>
+
+                   <td class="td2">
+                    <div class="column"> <b>Health Care Appliances</b>
+                         <br> <br>
+                        Bp Monitors
+                        Weighing Scale</div>
+                    </td> 
+
+                    <td class="td2">
+                    <div class="column">  <b>Smart Wearable Tech</b>
+                         <br> <br>
+                        Smart Watches
+                        Smart Glasses (VR)
+                        Smart Bands</div>
+                    </td>
+                </tr>
+            </table>
+           </div>
+          </div>
+          <div class="columns" id="columns4">
+            <table class="t4">
+                <tr>
+                   <td class="td2">
+                    <div class="column"> <b>Speakers</b> 
+                        <br> <br>
+                        Home Audio Speakers
+                        Home Theatres
+                        Soundbars
+                        Bluetooth Speakers
+                        DTH Set Top Box
+                       
+                        </div>
+                     </td>
+                   
+                   <td class="td2">
+                    <div class="column"><b>Camera Accessories</b> 
+                        <br> <br>
+                        Lens
+                        Tripods
+                        Network Components
+                        Routers</div>
+                     </td>
+                    <td class="td2">
+                    <div class="column"> <b> Smart Home Automation</b>
+                         <br> <br>
+                        Google Nest
+                        Camera
+                        DSLR & Mirrorless
+                        Compact & Bridge Cameras
+                        Sports & Action</div>
+                   </td> 
+                </tr>
+            </table>
+          </div>
+          <div class="columns" id="columns5">
+            <table class="t5">
+                <tr>
+                   <td class="td2">
+                    <div class="column"> <b>Winter Wear</b> 
+                        <br> <br>
+                        Sweatshirts
+                        Jackets
+                        Sweater
+                        Tracksuits
+                        Ethnic wear
+                        
+                        </div>
+                   </td>
+                  
+                   <td class="td2">
+                    <div class="column"> <b>Kurta</b> 
+                        <br> <br>
+                        Ethnic Sets
+                        Sherwanis
+                        Ethnic Pyjama
+                        Dhoti
+                        Lungi</div>
+                   </td>
+                   <td class="td2"> <div class="column"> <b>Innerwear & Loungewear</b> 
+                    <br> <br>
+                    Briefs & Trunks
+                    Vests
+                    Boxers
+                    Pyjamas and Lounge Pants
+                    Thermals</div>
+                   </td> 
+                </tr>
+            </table>
+        </div> 
+          
+          <div class="columns" id="columns6">
+            <table class="t6">
+                <tr>
+                   <td class="td2">
+                    <div class="column"> <b>Books</b> 
+                        <br><br>
+                        Entrance Exams
+                        Academics
+                        Literature & Fiction
+                        Non Fiction
+                        
+                        </div>
+                   </td >
+                   <td class="td2">
+                   <div class="column"> <b>Stationery</b> 
+                    <br> <br>
+                        Pens
+                        Diaries
+                        Card Holders
+                        Desk Organizers
+                        Calculators
+                        Key Chains</div>
+                   </td>
+                   </td>
+                   <td class="td2"><div class="column"> <b>Young Readers</b> 
+                    <br> <br>
+                    Self-Help
+                    E-Learning
+                    Preorders
+                    Indian Languages</div>
+                   </td> 
+                </tr>
+            </table>
+           
+          </div>
+          <div class="columns" id="columns7">
+            <center>
+                <table class="t7">
+                    <tr>
+                       <td  class="td2">
+                        <div class="column"> <b>Music</b>
+                             <br> <br>
+                            Musical Instruments
+                            Music
+                            Movies & Tv shows
+                           </div>
+                       </td>
+                       
+                       <td  class="td2">
+                        <div class="column"> <b> Gaming</b>
+                             <br> <br>
+                            Gaming Consoles
+                            Gaming Accessories
+                            PS4 Games
+                            Smart Glasses (VR)</div>
+                       </td>
+                       <td  class="td2"><div class="column"> <b>Sports</b>
+                         <br> <br>
+                        Cricket
+                        Badminton
+                        Cycling
+                        Football
+                        Skating
+                        Camping & Hiking
+                        Swimming</div>
+                       </td> 
+                    </tr>
+                </table>
+            </center>
+            
+          </div>
+          <div class="columns" id="columns8">
+            <table class="t8">
+                <tr>
+                   <td  class="td2"> 
+                    <div class="column"><b>Featured
+                    </b> <br> <br>
+                        Google Assistant Store
+                        Laptops on Buyback Guarantee
+                        Flipkart SmartBuy
+                        Li-Polymer Power Banks
+                        Sony PS4 Pro & Slim
+                        Apple Products
+                        Microsoft Store
+                        Lenovo Phab Series
+                        JBL Speakers
+                        Smartphones On Buyback Guarantee
+                        Philips
+                        Dr. Morepen
+                        Complete Mobile Protection
+                        Mobiles No Cost EMI
+                        Huawei Watch Gt 2e Smart Watch</div>
+                   </td>
+                </tr>
+            </table>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </body>
+    <div class="container1">
+        <div  class="image-slider">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.z_RQAmA3miDqAROqN297zgHaEK&pid=Api&P=0&h=220" alt="Image 1">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.ZdnII3MJJqYgKspRKAVzvwHaEK&pid=Api&P=0&h=220" alt="Image 2">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.yzzncj6jq60L-9nbs7BKKwHaD4&pid=Api&P=0&h=220" alt="Image 3">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.MWksb7iUijJKWCJqYpL_RAHaBx&pid=Api&P=0&h=220" alt="Image 5">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.MM9U2K6YgONnkZxpWnaHYwHaDa&pid=Api&P=0&h=220" alt="Image 6"> 
+            <img src="https://tse1.mm.bing.net/th?id=OIP.eo4QwmzNUmZorpP0m74zKQHaCr&pid=Api&P=0&h=220" alt="Image 6">
+        </div>
+    </div>
+    
+        <div class="con">
+            <h1> best of electronics</h1>
+                <table>
+                    <tr>
+                        <td >
+                            <div id="body1" >
+                            
+                                <center><img id="image1" src="https://rukminim2.flixcart.com/image/312/312/xif0q/television/y/e/6/50caprogt5012-kodak-original-imagqscqegrhccyh.jpeg?q=70" alt="" width="100pxpx" height="100px"> <br>
+                                </center>
+                                <p>KODAK 164 cm (65 inch) <br> Ultra HD (4K) LED Smart Google TV with Wit...
+                                    4(5)  <br>price ₹44,499₹69,99936% off</p>
+                        </td>
+                        <td>
+                            <div id="body2">
+                             
+                             <center><img id="image2" src="https://rukminim2.flixcart.com/image/300/300/xif0q/washing-machine-new/5/d/g/-original-imagzwjk87tnahh4.jpeg?q=90" alt=""  width="100pxpx" height="100px"> <br>
+                             </center>
+                             <p>1. IFB 7 kg 5 Star 2X Power St...
+                                4.24,402 <br> Ratings&397 Reviews
+                                 <br>₹25,99020% off
+                                <br>1000 rpm Max Speed
+                                <br>5 Star Rating</p>
+                            </td>
+                        <td>
+                            <div>
+                           
+                                <center>
+                             <img id="image3" src="https://rukminim2.flixcart.com/image/312/312/kljrvrk0/air-conditioner-new/0/l/y/183v-ads-1-5-split-voltas-inverter-original-imagyn7w23xcdgc3.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                            </center>
+                            <p>Hitachi 1.5 <br>Ton 3 Star <br> Window AC - White
+                                3.9(824)
+                                <br>₹23,236₹34,49032% off</p>
+                            </div>
+                             
+                        </td>
+                        <td>
+                             <div id="body4">
+                             
+                             <center><img id="image4" src="https://rukminim2.flixcart.com/image/312/312/xif0q/refrigerator-new/q/m/i/-original-imagmxh2fvsaaq6u.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br></center>
+                             <p>LG 185 L Direct Cool <br>Single Door 4 Star Refrigerator with Base Dr...
+                                <br>4.4(47,601)
+                                <br>₹15,990₹21,09924% off</p>
+                            </div>
+                         </td>             
+                        <button> Next></button>  
+                    </tr>
+                </table>
+    </div>
+    <div class="con">
+        <h1> Home & furniture</h1>
+            <table>
+                <tr>
+                    <td >
+                        <div id="body1" >
+                       <center>
+                        <img id="image1" src="https://rukminim2.flixcart.com/image/612/612/jms25jk0/coffee-table/w/j/y/particle-board-csi-66-crystal-furnitech-wenge-original-imaf9hc9qbtdgkjr.jpeg?q=70" alt="" width="100pxpx" height="100px"> <br>
+                    </center>
+                        <p>Crystal Furnitech Avia Engineered Wood Coffee Table
+                           <br> Finish Color - Wenge, Knock Down
+                            <br>4.3(5,431)
+                            <br>₹3,098₹4,26027% off
+                            <br>No Cost EMI from ₹345/month</p>
+                    </td>
+                    <td>
+                        <div id="body2">
+                         <center>
+                         <img id="image2" src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe-rack/g/z/5/-original-imagqcytjvsapjhy.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                        </center>
+                         <p>Nilkamal Plastic Shoe Rack
+                            7 Shelves,<br> DIY(Do-It-Yourself)
+                           <br> 4.3(8,514)
+                            <br>₹4,659₹5,99922% off
+                            <br>Bank Offer</p>
+                        </td>
+                    <td>
+                        <div>
+                        <center>
+                         <img id="image3" src="https://rukminim2.flixcart.com/image/612/612/xif0q/shoe-rack/m/w/f/-original-imaggfwhc5hgqzqa.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                        </center>
+                         <p>Delite Kom 24 Inches wide Four Door Powder Coated Wall ...
+                           <br> Brown, 4 Shelves,<br> DIY(Do-It-Yourself)
+                            <br>4.3(1,808)
+                            <br>₹6,520₹9,54131% off
+                            <br>No Cost EMI from ₹2,174/month</p>
+                        </div>
+                         
+                    </td>
+                    <td>
+                         <center>
+                         <img id="image4" src="https://rukminim2.flixcart.com/image/612/612/ktizdzk0/office-study-chair/u/j/h/pu-leatherette-vj-221-executive-hb-flipkart-perfect-homes-original-imag6uzzrmzvfkhs.jpeg?q=70 " alt=""  width="100pxpx" height="100px"> <br>
+                        </center>
+                         <div id="body4">
+                            <p>Ergonomic ...
+                               Black,<br> DIY(Do-It-Yourself)
+                              <br> 4.1(3,467)
+                               <br>₹7,999₹14,99946% off
+                               <br>Bank Offer
+                               <br>Set of: 1</p>
+                        </div>
+                     </td>             
+                    <button> Next></button>  
+                </tr>
+            </table>
+</div>
+<div class="con">
+    <h1>Mobile</h1>
+        <table>
+            <tr>
+                <td >
+                    <div id="body1" >
+                    <center>
+                    <img id="image1" src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/z/x/x/-original-imagp55frhhddu6n.jpeg?q=70" alt="" width="100pxpx" height="100px"> <br>
+                   </center>
+                    <p>realme C55 <br>(Sunshower, 64 GB)
+                       <br> 4.4(54,069)
+                      <br>  ₹10,999₹12,99915% off</p>
+                </td>
+                <td>
+                    <div id="body2">
+                     <center>
+                     <img id="image2" src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/3/l/x/-original-imaghmtcmxwgypsk.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>POCO C50 <br> (Country Green, 32 GB)
+                        <br>4.2(41,142)
+                        <br>₹5,499₹8,99938% off</p>
+                    </td>
+                <td>
+                    <div>
+                    <center>
+                     <img id="image3" src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/e/0/c/galaxy-f14-5g-sm-e146blvgins-samsung-original-imagnzdkxyfqhd6r.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>SAMSUNG Galaxy F14 5G <br> (B.A.E. Purple, 128 GB)
+                        <br>4.2(20,833)
+                        <br>₹13,990₹18,49024% off</p>
+                    </div>
+                     
+                </td>
+                <td>
+                     <div id="body4">
+                     <center>
+                     <img id="image4" src="https://rukminim2.flixcart.com/image/312/312/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                     </center>
+                     <p>APPLE iPhone 13 <br>(Midnight, 128 GB)
+                       <br> 4.7(2,32,295)
+                        <br>₹57,499₹69,90017% off </p>
+                    </div>
+                 </td>             
+                <button> Next></button>  
+            </tr>
+        </table>
+</div>
+<div class="con">
+    <h1>Laptop</h1>
+        <table>
+            <tr>
+                <td >
+                    <div id="body1" >
+                    <center>
+                    <img id="image1" src="https://rukminim2.flixcart.com/image/312/312/ks99aq80/computer/y/z/7/na-gaming-laptop-lenovo-original-imag5ve3jvhgvsnx.jpeg?q=70" alt="" width="100pxpx" height="100px"> <br>
+                </center>
+                    <p>Lenovo IdeaPad Gaming 3 Intel Core i5 11th Gen <br> (8 GB/512 GB SSD...
+                       <br> 4.3(3,377))
+                       <br> ₹47,990₹70,79032% off</p>
+                </td>
+                <td>
+                    <div id="body2">
+                     <center>
+                     <img id="image2" src="https://rukminim2.flixcart.com/image/312/312/xif0q/computer/j/m/2/-original-imagpa5gadtkbm6y.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>Lenovo IdeaPad 3 Core i3 12th Gen <br> (8 GB/512 GB SSD/Windows 11 H...
+                        4(87)
+                        <br>₹38,990₹67,09041% off</p>
+                    </td>
+                <td>
+                    <div>
+                    <center>
+                     <img id="image3" src="https://rukminim2.flixcart.com/image/300/300/l0jwbrk0/computer/e/k/r/240-g8-laptop-hp-original-imagcbgcgnqwenzx.jpeg?q=90" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>Lenovo IdeaPad Flex 3 Chromebook Intel Celeron Dual Core <br> (4 GB/...
+                        3.6(171)
+                        <br>₹27,490₹41,89034% off</p>
+                    </div>
+                     
+                </td>
+                <td>
+                     <div id="body4">
+                     <center>
+                     <img id="image4" src="https://rukminim2.flixcart.com/image/300/300/l37mtu80/computer/o/o/w/np750xee-xb1in-thin-and-light-laptop-samsung-original-imagednvzzu7t23v.jpeg?q=90" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>1. SAMSUNG Galaxy Book2 Core i...
+                        4.5131 <br>
+                        <br> Ratings&19 Reviews
+                        <br>₹61,99030% off
+                        <br>Intel Core i5 Processor (12th Gen)
+                        16 GB LPDDR4X RAM
+                        64 bit Windows 11 Operating System</p>
+                    </div>
+                 </td>             
+                <button> Next></button>  
+            </tr>
+        </table>
+</div>
+<div class="con">
+    <h1>Men wear</h1>
+        <table>
+            <tr>
+                <td >
+                    <div id="body1" >
+                    <center>
+                    <img id="image1" src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/q/o/0/xl-shirt-136-moonvelly-original-imagnqmff2ub4zd6.jpeg?q=70" alt="" width="100pxpx" height="100px"> <br>
+                </center>
+                    <p>MOONVELLY
+                        Men Regular Fit Solid Slim Collar Casual Shirt
+                        ₹349₹1,89981% off
+                        Size S, M, L, XL, XXL</p>
+                </td>
+                <td>
+                    <div id="body2">
+                     <center>
+                     <img id="image2" src="https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/t/e/0/l-st-theboys-black-smartees-original-imagnqszzzzyuzru.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>Smartees
+                        Men Typography Round Neck Cotton Blend Black T-Shirt
+                        ₹189₹1,59988% off
+                        Trendy
+                        Size M, L, XL</p>
+                    </td>
+                <td>
+                    <div>
+                    <center>
+                     <img id="image3" src="https://rukminim2.flixcart.com/image/612/612/xif0q/t-shirt/e/z/1/m-ts13-vebnor-original-imagz6w9u3gjuxym.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>VeBNoR
+                        Men Printed Round Neck Poly Cotton Blue T-Shirt
+                        ₹279₹1,33079% off
+                        Hot Deal
+                        Size S, M, L, XL, XXL</p>
+                    </div>
+                     
+                </td>
+                <td>
+                     <div id="body4">
+                     <center>
+                     <img id="image4" src="https://rukminim2.flixcart.com/image/612/612/l4zxn680/t-shirt/a/7/c/m-st-colorleaf-navy-smartees-original-imagfs4paqzgkteh.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>Smartees
+                        Men Printed Round Neck Cotton Blend Dark Blue T-Shirt
+                        ₹189₹1,29985% off
+                        Size M, L, XL</p>
+                    </div>
+                 </td>             
+                <button> Next></button>  
+            </tr>
+        </table>
+</div>
+<div class="con">
+    <h1> women wear</h1>
+        <table>
+            <tr>
+                <td >
+                    <div id="body1" >
+                    <center>
+                    <img id="image1" src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/j/c/c/free-self-design-bollywood-cotton-silk-saree-panchhi-unstitched-original-imag9ysfkwfntcpx.jpeg?q=70" alt="" width="100pxpx" height="100px"> <br>
+                </center>
+                    <p>khanjan hub
+                        Woven Maheshwari Jacquard, Pure Silk Saree
+                        Yellow
+                        ₹478₹2,99984% off
+                        Free delivery</p>
+                </td>
+                <td>
+                    <div id="body2">
+                     <center>
+                     <img id="image2" src="https://rukminim2.flixcart.com/image/612/612/kc54ivk0/sari/v/a/4/free-n260aw-wine-villagius-unstitched-original-imaftc8tykjgr5uk.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>VILLAGIUS
+                        Striped Chettinadu Cotton Silk Saree
+                        Magenta, Beige
+                        
+                        ₹260₹99973% off</p>
+                    </td>
+                <td>
+                    <div>
+                    <center>
+                     <img id="image3" src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/4/x/e/free-besaree-bhavya-exim-semi-stitched-original-imagad8z39zpsgra.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>khanjan hub
+                        Woven Banarasi Jacquard, Pure Silk Saree
+                        Blue
+                        ₹453₹2,99984% off
+                        Free delivery</p>
+                    </div>
+                     
+                </td>
+                <td>
+                     <div id="body4">
+                    <center>
+                     <img id="image4" src="https://rukminim2.flixcart.com/image/612/612/kxuqdu80/sari/b/0/j/free-juth-chiku-villagius-unstitched-original-imaga7m82ghhvzgw.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>WINKLECART
+                        Woven Mysore Pure Silk Saree
+                        Beige
+                        
+                        ₹279₹1,99986% off</p>
+                    </div>
+                 </td>             
+                <button> Next></button>  
+            </tr>
+        </table>
+</div>
+<div class="con">
+    <h1> Sports,books & more</h1>
+        <table>
+            <tr>
+                <td >
+                    <div id="body1" >
+                    <center>
+                    <img id="image1" src="https://rukminim2.flixcart.com/image/612/612/kj7gwi80/gamingconsole/n/3/c/cfi-1008b01r-825-sony-no-original-imafytxenahqnnpu.jpeg?q=70" alt="" width="100pxpx" height="100px"> <br>
+                </center>
+                    <p>SONY PlayStation 5 Digital Edition 825 GB with Astro's Playroom  (White)
+                        4.81,058 Ratings & 139 Reviews
+                        ₹44,990
+                        </p>
+                </td>
+                <td>
+                    <div id="body2">
+                     <center>
+                     <img id="image2" src="https://rukminim2.flixcart.com/image/150/150/j7qi9ow0/musical-keyboard/w/y/8/psr-e-453-yamaha-original-imaexx328gexzwg4.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>CASIO SA-81 Casiotone Digital Portable Keyboard  (44 Keys)
+                        4.335 Ratings & 4 Reviews
+                        Special price
+                        ₹4,945₹5,49510% off
+                        </p>
+                    </td>
+                <td>
+                    <div>
+                    <center>
+                        Capacity: 2 L</p>
+                     <img id="image3" src="https://rukminim2.flixcart.com/image/612/612/kerfl3k0pkrrdj/personal-care-appliances/v/h/r/heating-5091-woodpecker-prints-original-imafvgd3qnwgh8am.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>Recombigen Hot Water Bag Rubber 2 L Hot Water Bag
+                        Blue
+                        4(24,494)
+                        ₹180₹45660% off
+                        Saver Deal
+                    </div>
+
+                     
+                </td>
+                <td>
+                     <div id="body4">
+                     <center>
+                     <img id="image4" src="https://rukminim2.flixcart.com/image/612/612/ktyp8cw0/fmcg-combo/v/9/k/gold-dry-fruits-gift-box-6-eighty7-original-imag7684zfdbrw2r.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>Eighty7 Classic Dry Fruits Combo
+                        California Almonds-100g, Cashews-100g, Raisins-100g, Dried Cranberries-100g
+                        4.1(263)
+                        ₹414₹64535% off
+                        Top Discount on Sale</p>
+                    </div>
+                 </td>             
+                <button> Next></button>  
+            </tr>
+        </table>
+</div>
+<div class="con">
+    <h1>Manga books</h1>
+        <table>
+            <tr>
+                <td >
+                    <div id="body1" >
+                    <center>
+                    <img id="image1" src="https://rukminim2.flixcart.com/image/612/612/kjabs7k0-0/book/g/a/v/demon-slayer-kimetsu-no-yaiba-vol-2-original-imafywdfgx7pe8sm.jpeg?q=70" alt="" width="100pxpx" height="100px"> <br>
+                </center>
+                    <p>Demon Slayer: Kimetsu no Yaiba, Vol. 2
+                        English, Paperback, Gotouge Koyoharu
+                        4.6(68)
+                        ₹584₹64910% off</p>
+                </td>
+                <td>
+                    <div id="body2">
+                     <center>
+                     <img id="image2" src="https://rukminim2.flixcart.com/image/612/612/kk5rgy80/book/f/a/z/your-name-light-novel-original-imafzkuehvmhdytg.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>your name. (light novel)  (English, Paperback, Shinkai Makoto)
+                        4.1214 Ratings & 16 Reviews
+                        Special price
+                        ₹190₹2,45092% off
+                        i</p>
+                    </td>
+                <td>
+                    <div>
+                    <center>
+                     <img id="image3" src="https://rukminim2.flixcart.com/image/612/612/xif0q/book/x/n/o/a-silent-voice-1-original-imaggesxhwkqxd5g.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>A Silent Voice 1
+                        English, Paperback, unknown
+                        4.5(36)
+                        ₹144₹93084% off
+                        Top Discount on Sale</p>
+                    </div>
+                     
+                </td>
+                <td>
+                     <div id="body4">
+                     <center>
+                     <img id="image4" src="https://rukminim2.flixcart.com/image/612/612/k5bcscw0/book/5/1/2/one-piece-color-walk-compendium-water-seven-to-paramount-war-original-imafjwqwfzqhbeb5.jpeg?q=70" alt=""  width="100pxpx" height="100px"> <br>
+                    </center>
+                     <p>One Piece Color Walk Compendium: Water Seven to Paramount War  (English, Hardcover, Oda Eiichiro)Be the first to Review this product
+                        ₹2,747₹2,7991% off
+                        i</p>
+                    </div>
+                 </td>             
+                <button> Next></button>  
+            </tr>
+        </table>
+</div>    
+    <div class="line"></div>
+    <div class="con1">
+            <table class="table1">
+                <tr class="tr1">
+                    <td class="td1">
+                        <p>
+                            <b>ABOUT</b> <br> <br>
+                            Contact Us <br>
+                            About Us <br>
+                            Careers <br>
+                            Flipkart Stories <br>
+                            Press<br>
+                            Flipkart Wholesale<br>
+                            Corporate Information<br>
+                        </p>
+                        
+                    </td>
+                    <td class="td1">
+                        <p>
+                            <b> SOCIAL</b> <br><br>
+                             Facebook<br>
+                             Twitter<br>
+                             YouTube<br>
+                         </p>
+                    </td>
+                    
+                    <td class="td1">
+                        <p>
+                           <b>CONSUMER POLICY</b> <br><br>
+                            Return Policy<br>
+                            Terms Of Use<br>
+                            Security<br>
+                            Privacy<br>
+                            Sitemap<br>
+                            Grievance Redressal<br>
+                            EPR Compliance<br>
+                        </p>
+                        
+                    </td>
+                    <td class="td1">
+                        <p>
+                            <b>HELP</b><br><br>
+                            Payments<br>
+                            Shipping<br>
+                            Cancellation & Returns<br>
+                            FAQ<br>
+                            Report Infringement<br>
+                        </p>
+                        
+                    </td>
+                    <td class="td1">
+                        <p>
+                            <b>Mail Us:</b><br><br>
+                            Flipkart Internet Private Limited,<br>
+
+                            Buildings Alyssa, Begonia &<br>
+
+                            Clove Embassy Tech Village,<br>
+
+                            Outer Ring Road, Devarabeesanahalli Village,<br>
+
+                            Bengaluru, 560103,<br>
+
+                            Karnataka, India<br>
+                        </p>
+                         
+                        
+                    </td > 
+                    <td class="td1">
+                        <p>
+                           <b> Registered Office Address:</b><br><br>
+                                Flipkart Internet Private Limited,<br>
+
+                                Buildings Alyssa, Begonia &<br>
+
+                                Clove Embassy Tech Village,<br>
+
+                                Outer Ring Road, Devarabeesanahalli Village,<br>
+
+                                Bengaluru, 560103,<br>
+
+                                Karnataka, India<br>
+
+                                CIN : U51109KA2012PTC066107<br>
+
+                                Telephone: 044-45614700
+                        </p>
+                        
+                    </td>           
+                </tr>
+            </table>
+     <script src="./script.js"></script> 
+</body>
+</html>
